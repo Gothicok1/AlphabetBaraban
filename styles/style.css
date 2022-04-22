@@ -1,0 +1,91 @@
+body {
+  background-image: url(../assets/icons/fon.png);
+  background-color: #7A694E;
+  /* background-color: #502a28; */
+}
+
+.genre_icons > div{
+  margin:1pt;
+  display:inline-block;
+  /* vertical-align: middle; */
+}
+
+.genreBar {
+  margin-left: 10%;
+  margin-top: 3.4%;
+}
+
+#genreName {
+  font-family: myriadcad;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  margin-right: -40%;
+  transform: translate(-50%);
+  color: #e9cb97;
+  font-size: 100;
+  cursor: pointer;
+}
+
+.gamesList {
+  font-family: myriadcad;
+  line-height: 1.6;
+  position: absolute;
+  text-align: center;
+  top: 28%;
+  left: 50%;
+  margin-right: -40%;
+  transform: translate(-50%);
+  color: #e9cb97;
+  font-size: 22;
+  z-index: 1;
+}
+
+.progressText {
+  position: absolute;
+  font-family: myriadcad;
+  color: #e9cb97;
+  margin-left: 84.1%;
+  margin-top: 18.5%;
+  font-size: 10;
+}
+
+@font-face {
+    font-family: myriadcad;
+    src: url(../assets/fonts/myriadcad.otf);
+}
+
+.greyPosition {
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+
+.glowEffect {
+  /* box-shadow:0 0 10px #FFFFFF; */
+  filter: drop-shadow(0 -5px 5px #e9cb97);
+}
+
+.spin:after {
+  content:"";
+  animation: spin 0.9s linear 5;
+}
+@keyframes spin {
+  0% { content:"долгие"; }
+  5.56% { content:"глубокие"; }
+  11.12% { content:"хоррор"; }
+  16.68% { content:"экшн игры"; }
+  22.24% { content:"культовые"; }
+  27.8% { content:"метроидвания"; }
+  33.36% { content:"платформер"; }
+  38.92% { content:"роглайк"; }
+  44.48% { content:"мемы"; }
+  50.04% { content:"шутер"; }
+  55.6% { content:"интерактивные истории"; }
+  61.16% { content:"Хайден Гемы"; }
+  66.72% { content:"юмор"; }
+  72.28% { content:"АА инди"; }
+  77.84% { content:"приключения"; }
+  83.4% { content:"саундтрек"; }
+  88.96% { content:"квесты"; }
+
+}
